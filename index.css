@@ -45,7 +45,7 @@ body{
 .col-2{
     background-color: #009E9E;
     width: 50%;
-    padding: 20px;
+    padding: 10px 20px;
     color: #FFF;
     
 
@@ -80,3 +80,12 @@ body{
     background-color:#E9E9E9;
 
 }
+.image-group{
+    text-align: center;
+    
+     
+
+}
+
+
+
