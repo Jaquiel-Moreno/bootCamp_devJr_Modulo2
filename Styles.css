@@ -4,10 +4,33 @@ body{
     
    
 }
+
+
+input{
+
+    width: 95%;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 6px 0;
+    box-sizing: border-box;
+    
+}
+input:focus{
+
+    outline: none;
+}
+a{
+    color: #E9E9E9;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
 .container{
     background-color: #E9E9E9; 
     margin:auto;
     width: 600px;
+    right: 300;
     box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 2);
     border-radius: 5px;
     overflow: hidden;
@@ -68,7 +91,7 @@ body{
 .button{
     font-size: 1rem;
     color: #006666;
-    width: 100%;
+    width: 95%;
     padding: 0.9rem 2rem;
     border-radius: 4px;
     border: none;
@@ -83,6 +106,24 @@ body{
 .image-group{
     text-align: center;   
 }
+
+.register{
+    background-color: #006A6A;
+    padding: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    text-align: center; 
+    border-radius: 4px; 
+    width:auto; /* Ocupar 50% da largura da página */
+    margin: 0 auto; /* Centralizar o elemento horizontalmente */
+    box-sizing: border-box;
+
+
+
+  }
+
 @media screen and (max-width: 620px) {
     html {
         font-size: 14px;
@@ -96,9 +137,12 @@ body{
         box-sizing: border-box;
     }
     .container{
-        width: 95%;
+        width: 100%;
        
     
+    }
+    .header{
+        padding: 15px;
     }
 
 }
